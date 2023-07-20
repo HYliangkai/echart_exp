@@ -1,0 +1,19 @@
+{
+  "name": "echart_export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "external": [
+    "canvas"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "echarts": "^4.9.0"
+  }
+}
