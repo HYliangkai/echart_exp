@@ -1,16 +1,16 @@
 ## 使用手册
 0. 本项目运行环境 :`node v16`
 1. `centos`
-  1.1. 要先安装依赖:`sudo yum install gcc-c++ cairo-devel pango-devel libjpeg-turbo-devel giflib-devel`
-  1.2. gcc版本必须高于9.2[gcc的安装](https://gist.github.com/nchaigne/ad06bc867f911a3c0d32939f1e930a11)
+  + 要先安装依赖:`sudo yum install gcc-c++ cairo-devel pango-devel libjpeg-turbo-devel giflib-devel`
+  + gcc版本必须高于9.2[gcc的安装](https://gist.github.com/nchaigne/ad06bc867f911a3c0d32939f1e930a11)
   ```shell
   yum install centos-release-scl -y
   yum clean all
   yum install devtoolset-9-* -y
   scl enable devtoolset-9 bash
   ```
-  1.3. [解决/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found](https://www.cnblogs.com/astonc/p/16660844.html)
-  1.4. [解决/usr/lib64/libstdc++.so.6: version `GLIBC_2.18' not found](https://www.cnblogs.com/astonc/p/16660844.html)
+  + [解决/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found](https://www.cnblogs.com/astonc/p/16660844.html)  
+  + [解决/usr/lib64/libstdc++.so.6: version `GLIBC_2.18' not found](https://www.cnblogs.com/astonc/p/16660844.html)
 2. 然后进入本项目执行(用cnpm执行):`cnpm install`,安装项目依赖
 3. 最后执行 `npm run start` or `node ./index.js` 均可完成图片导出
 
